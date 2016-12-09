@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="201" started-at="2016-09-30T05:36:53Z" finished-at="2016-09-30T05:36:53Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="TestGroup.Scooter1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Scooter1" class="test.TestGroup"/>
+        <method signature="TestGroup.Scooter2()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Scooter2" class="test.TestGroup"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="TestGroup.Car1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Car1" class="test.TestGroup"/>
+        <method signature="TestGroup.Car2()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Car2" class="test.TestGroup"/>
+        <method signature="TestGroup.Sedan1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Sedan1" class="test.TestGroup"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="TestGroup.Sedan1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Sedan1" class="test.TestGroup"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Test" duration-ms="201" started-at="2016-09-30T05:36:53Z" finished-at="2016-09-30T05:36:53Z">
+      <class name="test.TestGroup">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Car1" duration-ms="37" started-at="2016-09-30T11:06:53Z" finished-at="2016-09-30T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Car2" duration-ms="3" started-at="2016-09-30T11:06:53Z" finished-at="2016-09-30T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Scooter1" duration-ms="3" started-at="2016-09-30T11:06:53Z" finished-at="2016-09-30T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Scooter2" duration-ms="5" started-at="2016-09-30T11:06:53Z" finished-at="2016-09-30T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:test.TestGroup@5d5eef3d]" name="Sedan1" duration-ms="2" started-at="2016-09-30T11:06:53Z" finished-at="2016-09-30T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- test.TestGroup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
